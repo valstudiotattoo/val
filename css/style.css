@@ -1,0 +1,134 @@
+/* Reset de estilos para garantir consistência entre navegadores */
+body, h1, h2, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #282626;
+    color: #fff;
+}
+
+header {
+    background-image: url(design-de-fundo-preto-escuro-com-listras_1017-38064.avif);
+    background-color: #111;
+    padding: 15px;
+    text-align: center;
+    text-shadow: 0 0 4px #ffffff, 0 0 6px #ff0000;
+    border-bottom: red 2px solid;
+}
+select{
+    
+    width: 100%;
+    height: 2px;
+    border-color: beige;
+
+}  
+header h1 {
+    font-size: 52px;
+    padding: 4px;
+    text-shadow: 0 0 6px #ff0000, 0 0 6px #ff0000;    
+}
+header h2 {
+    
+}
+nav{
+    background-color: #111111bb;
+}
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+nav a:hover {    
+    color: rgb(255, 238, 0);    
+}
+div.scroll-container {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+  
+  div.scroll-container img {
+    padding: 10px;
+    width: 150px;
+    height: 200px;
+  }
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+main li{
+    text-align: center;
+    list-style-type: none;
+    font-size: 18px;
+    text-shadow: 2px 2px 8px #ffffffd8;
+    
+}
+.destaque img{
+    border-radius: 13px;
+    border: #6f6f6f 2px solid;
+}
+.lista-series{
+    text-align: center;
+}
+.lista-series ul{
+display: flex;
+justify-content: space-around;
+padding: 8px;
+text-align: center;
+}
+.lista-series ul li img{
+    width: 250px;
+    padding: 8px;
+    
+    -webkit-box-reflect: below -25px linear-gradient(to bottom,
+     rgba(0,0,0,0.0), rgba(0,0,0,0.1));
+    margin: 25px;
+}
+.destaque img {
+    width: 100%;
+    height: auto;
+}    
+.categorias{
+    color: #fff;
+    text-decoration: none;  
+}
+.categorias ul {
+    list-style: none;    
+}
+.categorias li {
+    margin-bottom: 10px; 
+   
+}
+.categorias a{
+    list-style-type: none;   
+    text-decoration: none;
+    color: #ffffff;
+    
+    
+
+}
+
+
+footer {
+    background-color: #111;
+    color: #888;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: red 2px solid;
+}
